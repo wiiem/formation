@@ -1,0 +1,5 @@
+<mat-toolbar color="primary">
+  <!-- <a routerLink="/contacts" routerLinkActive="current">Contacts list </a><br>  correct syntax -->
+  <a [routerLink]="['']" routerLinkActive="mat-flat-button" [routerLinkActiveOptions]="{exact: true }" mat-button>Home </a> <!-- better syntax -->
+  <a [routerLink]="['/contacts']" routerLinkActive="mat-flat-button" mat-button>Contacts </a>
+</mat-toolbar>

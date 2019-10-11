@@ -1,0 +1,6 @@
+<div>
+  <form (submit)="handleSubmit($event)">
+    <input type="text" [value]="objectArray[0].label" (input)="inputValue.label = $event.target.value"/>
+    <button type="submit" >Add</button>
+  </form>
+</div>

@@ -1,0 +1,6 @@
+<div class="centerElements">
+  <h1>First Exercice: Forms / Inputs / Outputs</h1>
+  <todo-form [objectArray]="objectArray" (itemChange)="addToArray($event)"></todo-form>
+  <todo-list [objectArray]="objectArray" (delete)="deleteFromArray($event)"></todo-list>
+</div>
+<!--<router-outlet></router-outlet>-->

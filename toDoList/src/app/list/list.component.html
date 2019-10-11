@@ -1,0 +1,2 @@
+<h4>Item List:</h4>
+<todo-item *ngFor="let item of objectArray" [item]="item" (delete)="delete.emit($event)"></todo-item>

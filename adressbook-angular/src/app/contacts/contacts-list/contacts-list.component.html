@@ -1,0 +1,4 @@
+<mat-nav-list>
+  <a mat-list-item *ngFor="let c of contacts$ | async" [routerLink]="[c.id]"> {{c.name}} </a>
+</mat-nav-list>
+<a mat-raised-button routerLink="add"><i class="material-icons">person_add</i></a>
